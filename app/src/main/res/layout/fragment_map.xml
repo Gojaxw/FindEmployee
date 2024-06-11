@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".fragments.MapOfEmployee">
+
+
+    >
+
+        <TextView
+            android:id="@+id/coordinates"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="20sp"
+            android:layout_marginTop="20sp"
+
+            android:text="@string/coordinates"
+            android:textSize="15sp" />
+
+        <Button
+            android:id="@+id/btn_calibrate"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginTop="500sp"
+            android:ems="20"
+            android:text="@string/calibrate"
+                android:layout_centerHorizontal="true"
+            />
+
+        <Button
+            android:id="@+id/btn_clear_coordinates"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginTop="550sp"
+            android:ems="20"
+            android:text="clear coordinates"
+            android:layout_centerHorizontal="true"/>
+
+        <com.example.projectfindemployee.map.MapOfEmployeeView
+            android:id="@+id/map_of_employee"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="100sp"
+
+            />
+
+
+</FrameLayout>

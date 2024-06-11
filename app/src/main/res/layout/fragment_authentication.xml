@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".fragments.Authentication">
+    <com.google.android.material.textfield.TextInputEditText
+        android:id="@+id/entry_field_id"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="200sp"
+        android:autofillHints=""
+        android:ems="10"
+        android:hint="ID"
+        android:inputType="textEmailAddress"
+        android:minHeight="48dp" />
+
+    <com.google.android.material.textfield.TextInputEditText
+        android:id="@+id/entry_field_mail"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="250sp"
+        android:autofillHints=""
+        android:ems="10"
+        android:hint="E-mail Address"
+        android:inputType="textEmailAddress"
+        android:minHeight="48dp" />
+
+    <com.google.android.material.textfield.TextInputEditText
+        android:id="@+id/entry_field_password"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="300sp"
+        android:ems="10"
+        android:hint="Password"
+        android:inputType="textPassword"
+        android:minHeight="48dp"
+        android:autofillHints="" />
+
+    <Button
+        android:id="@+id/btn_to_sign_in"
+        style="@android:style/Widget.Material.Button.Small"
+        android:layout_width="150sp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="400sp"
+
+        android:text="Sign in" />
+
+    <Button
+        android:id="@+id/btn_to_sign_up"
+        style="@android:style/Widget.Material.Button.Small"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+
+
+        android:text="Sign up"
+
+        />
+
+</FrameLayout>
