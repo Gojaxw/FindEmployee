@@ -58,7 +58,7 @@ public class MainActivity extends AppCompatActivity implements SensorEventListen
     //Sensor data
     int SensorType = Sensor.TYPE_ACCELEROMETER;//Sensor.TYPE_LINEAR_ACCELERATION;
   public   Double x12=0.0,y12=0.0;
-    ArrayList<Float> data_x = new ArrayList<>(),
+   public ArrayList<Float> data_x = new ArrayList<>(),
             data_y = new ArrayList<>(),
             data_z = new ArrayList<>();
     public ArrayList<Double> data = new ArrayList<>(),
